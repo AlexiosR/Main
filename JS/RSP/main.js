@@ -6,14 +6,10 @@ let rock = "Rock";
 let scissors = "Scissors";
 let paper = "Paper";
 
-let Rock = rock.toLowerCase();
-let Scissors = scissors.toLowerCase();
-let Paper = paper.toLowerCase();
-
 alert("Welcome to the Rock vs Scissors vs Paper");  
 
-let firstplayer = prompt('First player write: Rock or Scissors or Paper', '');
-let secondplayer = prompt('Second player write: Rock or Scissors or Paper', '');
+let firstplayer = prompt('First player write: Rock or Scissors or Paper', '').toLowerCase();
+let secondplayer = prompt('Second player write: Rock or Scissors or Paper', '').toLowerCase();
 
 if ((firstplayer == rock) && (secondplayer == rock)
      || (firstplayer == scissors) && (secondplayer == scissors)
