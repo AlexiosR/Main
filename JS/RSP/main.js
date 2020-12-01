@@ -20,31 +20,24 @@ if ((firstplayer == rock) && (secondplayer == rock)
          || (firstplayer == paper) && (secondplayer == paper)){
     alert('Draw');
 }else
-{
 if ((firstplayer == paper) && (secondplayer == rock) )
 {
     alert('First Player Win, Paper > Rock');
-}else{ if ((firstplayer == rock) && (secondplayer == scissors) )
+}else if ((firstplayer == rock) && (secondplayer == scissors) )
 {
     alert('First Player Win, Rock > Scissors')
-}else{ if ((firstplayer == scissors) && (secondplayer == paper) )
+}else if ((firstplayer == scissors) && (secondplayer == paper) )
 {
     alert('пFirst Player Win, Scissors > Paper')
-}else{ if ((secondplayer == paper) && (firstplayer == rock) )
+}else if ((secondplayer == paper) && (firstplayer == rock) )
 {
     alert('Second Player Win, Paper > Rock');
-}else { if ((secondplayer == rock) && (firstplayer == scissors) )
+}else if ((secondplayer == rock) && (firstplayer == scissors) )
 {
     alert('Second Player Win, Rock > Scissors')
-}else { if ((secondplayer == scissors) && (firstplayer == paper) )
+}else if ((secondplayer == scissors) && (firstplayer == paper) )
 {
     alert('Second Player Win, Scissors > Paper');
-}else{
-    alert("Error");}
-}
-}
-}
-}
-}
-}
+}else
+    alert("Error");
 alert("Restart page - press F5")
